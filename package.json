@@ -1,0 +1,26 @@
+{
+	"name": "upwork-jobs-scraper",
+	"version": "0.0.2",
+	"type": "module",
+	"description": "🔥 Designed for both personal and professional use, simply enter your desired job title or keyword to receive a tailored list of job opportunities and how much much money you'll get for them. Try it today!",
+	"dependencies": {
+		"apify": "^3.1.10",
+		"crawlee": "^3.5.4",
+		"jsonexport": "^3.2.0",
+		"lodash": "^4.17.21",
+		"proxy-chain": "^2.4.0",
+		"puppeteer": "*",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-stealth": "^2.11.2"
+	},
+	"devDependencies": {
+		"@apify/eslint-config": "^0.4.0",
+		"eslint": "^8.50.0"
+	},
+	"scripts": {
+		"start": "node src/main.js",
+		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+	},
+	"author": "It's not you it's me",
+	"license": "ISC"
+}
